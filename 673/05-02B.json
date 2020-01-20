@@ -1,0 +1,162 @@
+{
+    "acquisition_software": "pychron 19.6",
+    "aliquot": 2,
+    "analysis_type": "unknown",
+    "analyst_name": "MHeizler",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "collection_version": "1.0:2.0",
+    "comment": "D:16 Kspar, 8.27  mg",
+    "commit": "91d84cd7438acb07bd2d2fc6db32b9e498ececcd",
+    "conditionals": [
+        {
+            "analysis_types": [],
+            "frequency": 10,
+            "hash_id": -5129528880561552677,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 5,
+            "teststr": "L2(CDD).deflection==3250"
+        }
+    ],
+    "data_reduction_software": "pychron 19.6",
+    "detectors": {
+        "AX": {
+            "deflection": 0.0,
+            "gain": 0.01205
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0.1045
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 1.0
+        },
+        "L1": {
+            "deflection": 0.0,
+            "gain": 0.9831
+        },
+        "L2(CDD)": {
+            "deflection": 0.0,
+            "gain": 0.0
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2020-01-20T08:12:34",
+                "title": "iServer Hum.",
+                "value": 18.3
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2020-01-20T09:48:05",
+                "title": "Building",
+                "value": 100.7
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2020-01-20T09:48:05",
+                "title": "Lab",
+                "value": 102.1
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2020-01-20T09:50:58",
+                "title": "iServer Temp.",
+                "value": 69.6
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2020-01-20T10:18:09",
+                "title": "Coolant",
+                "value": 16.0
+            }
+        ]
+    },
+    "experiment_queue_name": "LoadF0007",
+    "experiment_type": "Ar/Ar",
+    "extraction": "felix_furnace.py",
+    "grainsize": "",
+    "hops": "",
+    "identifier": "67305",
+    "increment": 1,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-306",
+    "irradiation_level": "D",
+    "irradiation_position": 16,
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L1",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "AX",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "H1",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H2",
+            "name": "Ar40",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "latitude": 0.0,
+    "lithology": null,
+    "lithology_class": null,
+    "lithology_group": null,
+    "lithology_type": null,
+    "longitude": 0.0,
+    "mass_spectrometer": "Felix",
+    "material": "K-Feldspar",
+    "measurement": "felix_analysis340_60_CDD_center.py",
+    "post_equilibration": "felix_pump_extraction_line.py",
+    "post_measurement": "felix_pump_ms.py",
+    "principal_investigator": "Williams_Hillenbrand",
+    "project": "Williams_Hillenbrand01230",
+    "queue_conditionals_name": "",
+    "repository_identifier": "WilliamsHillenbrand01230",
+    "rlocation": "",
+    "sample": "IWH19-327",
+    "source": {
+        "emission": 760.559,
+        "trap": 248.607
+    },
+    "spec_sha": "9839df14193423094cb9c2b3f03e4ee25da166e9",
+    "timestamp": "2020-01-20T10:23:03.118595",
+    "tripped_conditional": null,
+    "unit": null,
+    "username": "MHeizler",
+    "uuid": "5bd50ab8-e334-4c99-b016-53b0f973a636",
+    "whiff_result": null
+}
